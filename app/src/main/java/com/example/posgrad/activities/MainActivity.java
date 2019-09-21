@@ -45,9 +45,8 @@ public class MainActivity extends AppCompatActivity {
                             "\nWebsite: " + user.getWebsite()+"\n\n");
                 }
             }
-            //teste
 
-            
+
 
             @Override
             public void onFailure(Call<List<User>> call, Throwable t) {
